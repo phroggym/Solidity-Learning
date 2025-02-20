@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "data",
+						"type": "uint256[]"
+					}
+				],
+				"name": "doWork",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Оптимизация смарт-контрактов и газ.sol": "Un"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Оптимизация смарт-контрактов и газ.sol": {
+			"keccak256": "0xb8ec4d3e6af2fc2dc7d76ebe98c1709ce93c50a6fe2eeaec775475a8e8836eaf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9535e8f4b308ac1ba0479332cd15fe94d89558ab33e26e045ede4e1b912e4a34",
+				"dweb:/ipfs/QmQiLMu9iGoArjQKkQpnAvtjRK4WgqpagZpeQxHVWUt759"
+			]
+		}
+	},
+	"version": 1
+}
